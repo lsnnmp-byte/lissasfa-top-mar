@@ -2,12 +2,14 @@
   "name": "lissasfa-top-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lsnnmp-byte.github.io/lissasfa-top-mar",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export -o out",
     "build:export": "next build && next export -o out",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build:export && gh-pages -d out"
   },
   "dependencies": {
     "next": "13.4.10",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@types/node": "20.4.2",
     "@types/react": "18.2.28",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "gh-pages": "5.0.0"
   }
 }
