@@ -12,15 +12,15 @@
     "deploy": "npm run build:export && gh-pages -d out"
   },
   "dependencies": {
+    "formidable": "3.5.2",
     "next": "13.4.10",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "formidable": "3.5.2"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "20.4.2",
     "@types/react": "18.2.28",
-    "typescript": "5.2.2",
-    "gh-pages": "5.0.0"
+    "gh-pages": "^5.0.0",
+    "typescript": "5.2.2"
   }
 }
